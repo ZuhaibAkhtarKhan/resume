@@ -9,7 +9,12 @@ const links = [
   { href: profile.socials.github, label: "GitHub", Icon: Github },
   { href: profile.socials.linkedin, label: "LinkedIn", Icon: Linkedin },
   { href: profile.socials.email, label: "Email", Icon: Mail },
-  { href: profile.socials.resume, label: "Resume PDF", Icon: FileDown },
+  {
+    href: profile.socials.resume,
+    label: "Resume PDF",
+    Icon: FileDown,
+    download: "ZuhaibAkhtarFinalResume.pdf",
+  },
 ];
 
 export default function Header() {
@@ -28,13 +33,14 @@ export default function Header() {
       </div>
 
       <nav aria-label="social" className="flex items-center gap-1.5">
-        {links.map(({ href, label, Icon }) => (
+        {links.map(({ href, label, Icon, download }) => (
           <Magnetic key={label}>
             <motion.a
               href={href}
               aria-label={label}
               target={href.startsWith("http") ? "_blank" : undefined}
               rel="noreferrer"
+              download={download}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.92 }}
               transition={{ type: "spring", stiffness: 400, damping: 18 }}
