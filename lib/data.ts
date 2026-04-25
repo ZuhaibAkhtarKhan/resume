@@ -207,7 +207,7 @@ export const skills: { title: string; items: SkillItem[] }[] = [
 ];
 
 export const stats = [
-  { value: 100, suffix: "+", label: "students reached" },
+  { value: 1000, suffix: "+", label: "students reached" },
   { value: 10, suffix: "+", label: "speaker sessions" },
   { value: 5, suffix: "+", label: "hackathons run" },
   { value: 5000, suffix: " USD", label: "prize pools secured" },
