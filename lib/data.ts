@@ -50,7 +50,7 @@ export const education = [
 
 export const experience = [
   {
-    role: "Executive Board Member",
+    role: "Core Team Member",
     company: "Google Developers Group on Campus (GDGoC) GIKI",
     period: "Dec 2024 — Present",
     location: "Topi, Pakistan",
@@ -62,7 +62,7 @@ export const experience = [
     color: "blue" as AccentColor,
   },
   {
-    role: "Technical Coordinator",
+    role: "Core Team Member",
     company: "Microsoft Learn Student Ambassadors Club GIKI",
     period: "Nov 2024 — Present",
     location: "Topi, Pakistan",
