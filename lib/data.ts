@@ -90,7 +90,7 @@ export const projects = [
       { label: "React.js", color: "cyan" as AccentColor },
     ],
     color: "blue" as AccentColor,
-    link: "https://github.com/shahmeerabdul/micathon-26",
+    link: null,
   },
   {
     name: "KhataV2",
@@ -109,7 +109,7 @@ export const projects = [
       { label: "Twilio", color: "red" as AccentColor },
     ],
     color: "purple" as AccentColor,
-    link: null,
+    link: "https://github.com/shahmeerabdul/micathon-26",
   },
   {
     name: "3Bins",
