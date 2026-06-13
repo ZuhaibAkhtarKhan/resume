@@ -13,7 +13,7 @@ const links = [
     href: profile.socials.resume,
     label: "Resume PDF",
     Icon: FileDown,
-    download: "ZuhaibAkhtarFinalResume.pdf",
+    download: "zuhaibakhtar_resume.pdf",
   },
 ];
 

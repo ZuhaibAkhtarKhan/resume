@@ -8,6 +8,8 @@ const SECTIONS = [
   { id: "experience", label: "experience" },
   { id: "projects", label: "projects" },
   { id: "skills", label: "skills" },
+  { id: "certifications", label: "certs" },
+  { id: "awards", label: "awards" },
 ];
 
 export default function SectionNav() {

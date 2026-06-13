@@ -54,7 +54,7 @@ All resume content (projects, experience, skills, courses, awards) lives in a si
 lib/data.ts
 ```
 
-Edit values there — the UI updates automatically. Replace `public/ZuhaibAkhtarFinalResume.pdf` with a newer version when needed.
+Edit values there — the UI updates automatically. Replace `public/zuhaibakhtar_resume.pdf` with a newer version when needed.
 
 ## Project structure
 
@@ -71,7 +71,7 @@ app/
     Experience.tsx
     Projects.tsx     # interactive project cards
     Skills.tsx
-    Courses.tsx
+    Certifications.tsx
     Awards.tsx
     Footer.tsx
     BackgroundGrid.tsx   # grid + spotlight
@@ -83,7 +83,7 @@ app/
 lib/
   data.ts            # all resume content
 public/
-  ZuhaibAkhtarFinalResume.pdf
+  zuhaibakhtar_resume.pdf
   favicon.svg
 ```
 

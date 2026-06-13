@@ -13,12 +13,11 @@ export const profile = {
   role: "software engineering student",
   bio: "software engineering student at giki, building full-stack and ai projects, organizing hackathons and speaker sessions on campus.",
   tinkering: [
-    { label: "langchain", color: "green" as AccentColor },
-    { label: "langgraph", color: "purple" as AccentColor },
-    { label: "rag pipelines", color: "red" as AccentColor },
+    { label: "django", color: "green" as AccentColor },
+    { label: "postgresql", color: "blue" as AccentColor },
     { label: "relational databases", color: "blue" as AccentColor },
-    { label: "backend frameworks", color: "cyan" as AccentColor },
-    { label: "api integrations", color: "blue" as AccentColor },
+    { label: "devops", color: "cyan" as AccentColor },
+    { label: "docker", color: "cyan" as AccentColor },
     { label: "linux", color: "yellow" as AccentColor },
     { label: "competitive programming", color: "pink" as AccentColor },
     { label: "hackathons", color: "orange" as AccentColor },
@@ -27,7 +26,7 @@ export const profile = {
     github: "https://github.com/zuhaibakhtarkhan",
     linkedin: "https://linkedin.com/in/izuhaibakhtar/",
     email: "mailto:u2024691@giki.edu.pk",
-    resume: "/ZuhaibAkhtarFinalResume.pdf",
+    resume: "/zuhaibakhtar_resume.pdf",
   },
 };
 
@@ -42,7 +41,7 @@ export const education = [
       "Object-Oriented Programming",
       "Database Management (SQL)",
       "Software Requirements Engineering",
-      "Computer Organization & Architecture",
+      "Computer Organization and Architecture",
       "DevOps",
     ],
   },
@@ -55,14 +54,14 @@ export const experience = [
     period: "Dec 2024 — Present",
     location: "Topi, Pakistan",
     bullets: [
-      "Spearheaded industry–academia integration initiatives for 100+ students, bridging technical knowledge gaps through official Google community support.",
-      "Orchestrated 10+ industry-led speaker sessions featuring firms like Vyro.ai and Vector.ai, facilitating internships for 10+ students via networking sessions.",
-      "Executed 3 high-scale hackathons sponsored by GitHub, Base Technologies and Vyro’s ImagineArt — managing 20+ teams and securing USD 5,000 in prize pools.",
+      "Pioneered industry-academia integration initiatives for 100+ students, bridging technical knowledge gaps through official Google community support.",
+      "Brokered 10+ industry-led speaker sessions featuring firms like Vyro.ai and Vector.ai, yielded internships for 10+ students via networking sessions.",
+      "Executed 3 high-scale hackathons sponsored by GitHub, Base Technologies and Vyro's ImagineArt, managing 20+ teams and amassed USD 5000 in prize pools.",
     ],
     color: "blue" as AccentColor,
   },
   {
-    role: "Core Team Member",
+    role: "Core Team and Dev Team Member",
     company: "Microsoft Learn Student Ambassadors Club GIKI",
     period: "Nov 2024 — Present",
     location: "Topi, Pakistan",
@@ -79,10 +78,10 @@ export const projects = [
     tagline: "Project management software",
     period: "Apr 2026 — Present",
     description:
-      "Architecting a full-stack Jira clone — PostgreSQL schema design for user auth, ticket states, and role-based permissions.",
+      "Architecting a full-stack Jira clone, specializing in PostgreSQL schema design to manage user authentication, ticket states, and role-based permissions.",
     bullets: [
-      "Optimizing data retrieval for 100+ entries via strategic indexing and SQL joins for performant state management.",
-      "Collaborating in a 4-person team mirroring enterprise-level Scrum workflows and project tracking.",
+      "Optimizing data retrieval for a target base of 100+ entries, utilizing strategic indexing and SQL joins to ensure performant state management.",
+      "Synchronizing in a 4-person team to mimic enterprise-level Scrum workflows and project tracking functionalities.",
     ],
     stack: [
       { label: "PostgreSQL", color: "blue" as AccentColor },
@@ -99,8 +98,8 @@ export const projects = [
     description:
       "Engineered a voice-first financial ledger using Google Gemini LLMs to process Urdu/English natural language commands into structured JSON.",
     bullets: [
-      "Architected a high-performance system with Zustand for zero-latency, offline-ready tracking — accommodating 5,000+ potential daily users.",
-      "Integrated Twilio WhatsApp API to automate receipts and summaries, reducing literacy-based friction for small business owners.",
+      "Architected a high-performance system with Zustand for zero-latency and offline-ready tracking.",
+      "Integrated Twilio WhatsApp API to automate receipts and summaries, mitigating literacy-based friction for small business owners.",
     ],
     stack: [
       { label: "Gemini", color: "purple" as AccentColor },
@@ -116,7 +115,7 @@ export const projects = [
     tagline: "AI smart waste separator",
     period: "Feb 2026",
     description:
-      "Developed an AI-powered smart waste separator using a custom YOLOv8 model — achieving 0.60 mAP (60%) for real-time classification.",
+      "Developed an AI-powered smart waste separator utilizing a custom YOLOv8 model, achieving a 0.60 mAP (60%) for real-time classification.",
     bullets: [
       "Implemented serial communication between model outputs and an Arduino Mega to automate physical sorting via a multi-servo mechanism.",
     ],
@@ -134,10 +133,10 @@ export const projects = [
     tagline: "Disease diagnosis system",
     period: "Oct 2025 — Nov 2025",
     description:
-      "Engineered a diagnostic engine achieving O(log N) search efficiency for N diseases via a hybrid Binary Search Tree + HashMap structure.",
+      "Engineered a diagnostic engine achieving O(log N) search efficiency for N diseases by architecting a hybrid Binary Search Tree and HashMap structure.",
     bullets: [
-      "Optimized symptom-to-disease mapping to O(1) average-case complexity, reducing latency for real-time diagnostic queries.",
-      "Used Linked Lists for dynamic symptom storage — memory-efficient data management for 100+ medical profiles.",
+      "Optimized symptom-to-disease mapping to O(1) average-case complexity, significantly bypassing processing latency for real-time diagnostic queries.",
+      "Utilized dynamic symptom storage through Linked Lists, ensuring memory-efficient data management for 100+ medical profiles.",
     ],
     stack: [
       { label: "C++", color: "blue" as AccentColor },
@@ -162,52 +161,107 @@ export const skills: { title: string; items: SkillItem[] }[] = [
   {
     title: "Languages",
     items: [
-      { name: "Python",           icon: "python",      color: "#FFD43B" },
-      { name: "C/C++",            icon: "cplusplus",   color: "#7aa6ff" },
-      { name: "SQL (PostgreSQL)", icon: "postgresql",  color: "#7ee7ff" },
-      { name: "JavaScript",       icon: "javascript",  color: "#F7DF1E" },
-      { name: "Tailwind CSS",     icon: "tailwindcss", color: "#38BDF8" },
-      { name: "HTML/CSS",         icon: "html5",       color: "#E34F26" },
+      { name: "Python", icon: "python", color: "#FFD43B" },
+      { name: "C/C++", icon: "cplusplus", color: "#7aa6ff" },
+      { name: "SQL (PostgreSQL)", icon: "postgresql", color: "#7ee7ff" },
+      { name: "JavaScript", icon: "javascript", color: "#F7DF1E" },
+      { name: "HTML/CSS", icon: "html5", color: "#E34F26" },
     ],
   },
   {
     title: "Core Competencies",
     items: [
-      { name: "DSA",                  icon: "binary",     color: "#9ee493" },
-      { name: "OOP",                  icon: "boxes",      color: "#c79bff" },
-      { name: "Relational Databases", icon: "database",   color: "#7aa6ff" },
-      { name: "SDLC",                 icon: "workflow",   color: "#ffa86b" },
-      { name: "DevOps",               icon: "infinity",   color: "#7ee7ff" },
+      { name: "DSA", icon: "binary", color: "#9ee493" },
+      { name: "OOP", icon: "boxes", color: "#c79bff" },
+      { name: "Relational Databases", icon: "database", color: "#7aa6ff" },
+      { name: "SDLC", icon: "workflow", color: "#ffa86b" },
+      { name: "DevOps", icon: "infinity", color: "#7ee7ff" },
     ],
   },
   {
     title: "Developer Tools",
     items: [
-      { name: "Git/GitHub",  icon: "github",  color: "#e8e8ee" },
-      { name: "Docker",      icon: "docker",  color: "#2496ED" },
-      { name: "Linux",       icon: "linux",   color: "#FCC624" },
-      { name: "Jira",        icon: "jira",    color: "#0052CC" },
-      { name: "VS Code",     icon: "vscode",  color: "#007ACC" },
-      { name: "CursorAI",    icon: "cursor",  color: "#e8e8ee" },
+      { name: "Git/GitHub", icon: "github", color: "#e8e8ee" },
+      { name: "Docker", icon: "docker", color: "#2496ED" },
+      { name: "Linux", icon: "linux", color: "#FCC624" },
+      { name: "Jira", icon: "jira", color: "#0052CC" },
+      { name: "CursorAI", icon: "cursor", color: "#e8e8ee" },
       { name: "Arduino IDE", icon: "arduino", color: "#00979D" },
     ],
   },
   {
     title: "Libraries / Frameworks",
     items: [
-      { name: "LangChain",     icon: "langchain", color: "#1c3c3c" },
-      { name: "LangGraph",     icon: "network",   color: "#9ee493" },
-      { name: "RAG Pipelines", icon: "layers",    color: "#c79bff" },
-      { name: "Flask",         icon: "flask",     color: "#e8e8ee" },
-      { name: "Node.js",       icon: "nodejs",    color: "#5FA04E" },
-      { name: "NumPy",         icon: "numpy",     color: "#4D77CF" },
-      { name: "Pandas",        icon: "pandas",    color: "#150458" },
+      { name: "Django", icon: "django", color: "#092E20" },
+      { name: "NumPy", icon: "numpy", color: "#4D77CF" },
+      { name: "Pandas", icon: "pandas", color: "#150458" },
     ],
   },
 ];
 
+export const certifications = [
+  {
+    name: "CS50x: Introduction to Computer Science",
+    issuer: "Harvard University (edX)",
+    period: "2026",
+    color: "blue" as AccentColor,
+  },
+  {
+    name: "CS50P: Introduction to Programming with Python",
+    issuer: "Harvard University (edX)",
+    period: "2026",
+    color: "cyan" as AccentColor,
+  },
+  {
+    name: "Data Structures and Algorithms Deep Dive",
+    issuer: "Abdul Bari (Udemy)",
+    period: "2025",
+    color: "green" as AccentColor,
+  },
+  {
+    name: "Beginning C++ Programming — From Beginner to Beyond",
+    issuer: "Tim Buchalka's Academy (Udemy)",
+    period: "2025",
+    color: "yellow" as AccentColor,
+  },
+  {
+    name: "The Complete JavaScript Course",
+    issuer: "Jonas Schmedtmann (Udemy)",
+    period: "2025",
+    color: "orange" as AccentColor,
+  },
+  {
+    name: "The Ultimate Django Series",
+    issuer: "Mosh Hamedani (Code with Mosh)",
+    period: "2026",
+    inProgress: true,
+    color: "purple" as AccentColor,
+  },
+];
+
+export const awards = [
+  {
+    title: "ICPC Regional Contest",
+    subtitle: "Team Ranked Among Top 5",
+    period: "2025",
+    bullets: [
+      "Secured a position among the top 5 teams in the ICPC Pakistan National/Preliminary Contest, solving complex algorithmic challenges under strict time constraints.",
+    ],
+    color: "pink" as AccentColor,
+  },
+  {
+    title: "Competitive Programming (Codeforces)",
+    subtitle: "120+ Problems Solved",
+    period: "Active",
+    bullets: [
+      "Solved over 120 algorithmic problems on Codeforces, consistently refining problem-solving speed, data structure applications, and optimization paradigms in C++.",
+    ],
+    color: "blue" as AccentColor,
+  },
+];
+
 export const stats = [
-  { value: 1000, suffix: "+", label: "students reached" },
+  { value: 100, suffix: "+", label: "students reached" },
   { value: 10, suffix: "+", label: "speaker sessions" },
   { value: 5, suffix: "+", label: "hackathons run" },
   { value: 5000, suffix: " USD", label: "prize pools secured" },
